@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert AI Research Assistant.\n\nSummarize the research paper titled:\n\n\"{paper_input}\"\n\nFollow these instructions carefully:\n\nExplanation Style:\n{style_input}\n\nExplanation Length:\n{length_input}\n\nInclude the following sections:\n\n1. Main Objective\n2. Problem Statement\n3. Key Contributions\n4. Model/Architecture\n5. Important Mathematical Concepts or Equations (if available)\n6. Working Explanation\n7. Simple Real-world Analogy\n8. Advantages\n9. Limitations\n10. Real-world Applications\n\nIf applicable, include simple Python or pseudocode snippets.\n\nDo NOT make up information.\nIf any information is unavailable, write:\n\"Insufficient information available.\"\n\nGenerate the response in proper Markdown format using headings and bullet points.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
