@@ -1,7 +1,7 @@
 # Virtual environments
 Langchain_Models/langchain_venv/
 venv/
-.venv/
+langchain_venv/
 
 # Python
 __pycache__/
